@@ -1,0 +1,93 @@
+import React from 'react';
+import footerDe from '../images/footerDe.svg';
+import Textlogo from '../images/Textlogo.svg';
+import Image from 'next/image';
+import Email from '../images/email-icon.svg';
+import Phone from '../images/phone.svg';
+import Facebook from '../images/faceboo-icon.svg';
+
+const footer = () => {
+  return (
+    <main
+      style={{
+        backgroundImage: `url("${footerDe.src}")`,
+        width: '100%',
+        height: '80vh',
+        backgroundRepeat: 'repeat',
+        backgroundSize: 'cover',
+      }}
+      className="flex flex-col md:flex-row gap-x-20 items-center justify-center relative"
+    >
+      <div className=" md:absolute md:bottom-0 md:left-0 p-8 pt-40">
+        <Image src={Textlogo} alt="Haryana" width={400} height={400} />
+        <p className="w-96 text-white my-4 text-base">
+          Your support means the world to us! Thank you for standing with our
+          NGO in our mission to create positive change. Every effort, big or
+          small, brings us closer to making the world a better place. We
+          appreciate you being a crucial part of our journey.
+        </p>
+      </div>
+
+      <div className="flex flex-col md:absolute bottom-0 md:right-0 p-8  gap-y-40">
+        <div className="flex flex-col gap-y-2">
+          <a
+            href="mailto:Sunitasiwach23@gmail.com"
+            className="flex text-white items-center space-x-2"
+          >
+            <Image
+              src={Email}
+              alt="Haryana"
+              width={40}
+              height={40}
+              className="h-8 w-8"
+            />
+            <h2 className="text-base  text-white">Sunitasiwach23@gmail.com</h2>
+          </a>
+          <a
+            href="tel:+918295744832"
+            className="flex    text-white items-center  space-x-2"
+          >
+            <Image
+              src={Phone}
+              alt="Haryana"
+              width={40}
+              height={40}
+              className="h-8 w-8"
+            />
+            <h2 className="text-base">+918295744832</h2>
+          </a>
+          <a
+            href="https://www.facebook.com/SmileFoundationSociety"
+            target="_blank"
+            className="flex items-center   text-white space-x-2"
+          >
+            <Image
+              src={Facebook}
+              alt="Haryana"
+              width={40}
+              height={40}
+              className="h-8 w-8"
+            />
+            <h2 className="text-base">Smile foundation society</h2>
+          </a>
+        </div>
+      </div>
+
+      <div className="flex border-t-2  absolute bottom-0 w-11/12 justify-between px-8 py-1  border-[#A8A8A8]">
+        <div>
+          <p className="text-xs  text-white">
+            {' '}
+            Copyright 2023 The Optimizers, Inc. All Rights Reserved
+          </p>
+        </div>
+        <div className="flex gap-x-4">
+          <p className="text-xs  text-white">Terms & Conditions</p>
+          <p className="text-xs  text-white">Privacy Policy</p>
+          <p className="text-xs  text-white">Cookies Policy</p>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default footer;
