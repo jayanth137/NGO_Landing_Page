@@ -1,6 +1,6 @@
 import React from 'react';
 import footerDe from '../images/footerDe.svg';
-import Textlogo from '../images/Textlogo.svg';
+import logo from '../images/textlogo.svg';
 import Image from 'next/image';
 import Email from '../images/email-icon.svg';
 import Phone from '../images/phone.svg';
@@ -19,7 +19,7 @@ const footer = () => {
       className="flex flex-col md:flex-row gap-x-20 items-center justify-center relative"
     >
       <div className=" md:absolute md:bottom-0 md:left-0 p-8 pt-40">
-        <Image src={Textlogo} alt="Haryana" width={400} height={400} />
+        <Image src={logo} alt="logo" width={400} height={400} />
         <p className="w-96 text-white my-4 text-base">
           Your support means the world to us! Thank you for standing with our
           NGO in our mission to create positive change. Every effort, big or
