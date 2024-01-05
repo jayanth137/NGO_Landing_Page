@@ -4,32 +4,47 @@ import Donate from '../images/Donate.svg';
 
 const Donation = () => {
   return (
-    <main className="flex">
-      <div className="w-1/2  ">
+    <main className="flex md:flex-row flex-col bg-[#D9D9D926] m-20 rounded-3xl p-8">
+      <div className="w-1/2 flex flex-col  justify-center items-center ">
         <h1 className="text-4xl  italic text-purple font-extrabold ">
           Thanks for Donating
         </h1>
         <Image src={Donate} alt="donate" />
       </div>
-      <div className="bg-purple py-60 px-2 mx-20 w-1/2">
-        <div>Giving Option:</div>
-        <div className='"grid grid-cols-2 gap-4 '>
-          <button className="bg-white m-8"> One Time</button>
-          <button className="bg-white"> Monthly</button>
+      <div className="bg-purple py-50 p-8 mx-20 w-1/2 rounded-3xl">
+        <div className="text-xl font-bold  text-white">Giving Option:</div>
+        <div className='"flex lg:m-8     '>
+          <button className="bg-white btn px-8 py-2 rounded-xl">
+            {' '}
+            One Time
+          </button>
+          <button className="bg-white btn px-8 py-2 rounded-xl">
+            {' '}
+            Monthly
+          </button>
         </div>
-        <div>I Would Like To Give</div>
-        <div className="grid grid-cols-3 gap-4 ">
-          <button className="bg-white"> 100 Rs</button>
-          <button className="bg-white"> 100 Rs</button>
-          <button className="bg-white"> 100 Rs</button>
-
-          <button className="bg-white"> 100 Rs</button>
-          <button className="bg-white"> 100 Rs</button>
-          <button className="bg-white"> 100 Rs</button>
+        <div className="text-xl font-bold text-white ">
+          I Would Like To Give:{' '}
         </div>
+        <div className="grid grid-cols-3 gap-4 m-8 ">
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
 
-        <div>
-          <button>Donate</button>
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
+          <button className="bg-white px-3 py-2 rounded-xl"> 100 Rs</button>
+        </div>
+        <div className="flex flex-col gap-y-4 justify-center lg:ml-8">
+          <input
+            type="text"
+            placeholder="Enter Amount"
+            className="bg-white px-12 py-2 w-4/6  rounded-xl"
+          />
+
+          <button className="btn bg-yellow px-20 py-4 w-36  text-white">
+            Donate
+          </button>
         </div>
       </div>
     </main>

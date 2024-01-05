@@ -18,7 +18,7 @@ const Gallery = () => {
     <main>
       <div>
         <h1 className="text-5xl font-bold text-center m-2">Gallery</h1>
-        <p className="text-base  mx-52">
+        <p className="text-base  md:mx-52 mx-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
           tristique enim. Phasellus convallis at risus eget finibus. Mauris non
           arcu eu sem ornare aliquet. Mauris et enim pulvinar,{' '}
@@ -26,7 +26,7 @@ const Gallery = () => {
       </div>
 
       <div>
-        <div className="carousel mx-48 my-10 rounded-box">
+        <div className="carousel md:mx-48 mx-8  my-10 rounded-box">
           <div className="carousel-item">
             <Image
               src={image1}
@@ -76,7 +76,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="mx-48 my-2 flex gap-x-20">
+      <div className="md:mx-48 mx-8  md:my-10 my-2  flex gap-x-20">
         <Image src={image7} alt="image7" className="rounded-box" />
 
         <a link=""></a>

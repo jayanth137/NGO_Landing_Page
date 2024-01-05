@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Events from './components/Events';
+import VolunteerForm from './components/VolunteerForm';
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <MapCtxt />
       <Card />
       <Events />
-
+      <VolunteerForm />
       <Gallery />
       <Faq />
       <Footer />

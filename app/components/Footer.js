@@ -12,7 +12,7 @@ const footer = () => {
       style={{
         backgroundImage: `url("${footerDe.src}")`,
         width: '100%',
-        height: '80vh',
+        height: '85vh',
         backgroundRepeat: 'repeat',
         backgroundSize: 'cover',
       }}
