@@ -11,9 +11,10 @@ const Card = () => {
       style={{
         backgroundImage: `url("${cardDesign.src}")`,
         backgroundRepeat: 'repeat',
+        height: '120vh',
         backgroundSize: 'cover',
       }}
-      className="w-full h-dvh  "
+      className="w-full  min-h-full "
     >
       <div className="flex flex-col gap-y-3 md:gap-y-6 py-4 md:py-20  ">
         <h5 className="text-center test-lg  md:text-2xl font-semibold  ">
@@ -28,8 +29,8 @@ const Card = () => {
           well-being, and joy through various celebrations.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-8  md:gap-x-20 ">
-        <div className="card card-compact w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
+      <div className="grid  md:grid-flow-col lg:gap-x-48 mx-20 gap-y-4  ">
+        <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
           <figure>
             <Image src={one} alt="Shoes" width={60} height={60} />
           </figure>
@@ -38,7 +39,7 @@ const Card = () => {
             <p>If a dog chews shoes whose shoes does he choose?</p>
           </div>
         </div>
-        <div className="card card-compact w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
+        <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
           <figure>
             <Image src={two} alt="Shoes" width={60} height={60} />
           </figure>
@@ -47,7 +48,7 @@ const Card = () => {
             <p>If a dog chews shoes whose shoes does he choose?</p>
           </div>
         </div>
-        <div className="card card-compact w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
+        <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
           <figure>
             <Image src={three} alt="Shoes" width={60} height={60} />
           </figure>

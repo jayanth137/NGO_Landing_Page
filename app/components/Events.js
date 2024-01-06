@@ -18,7 +18,7 @@ const Events = () => {
             position: 'relative',
             bottom: '120px',
           }}
-          className="md:w-1/2"
+          className="md:w-1/2 max-h-full"
         >
           <div className="flex flex-row md:gap-x-12 gap-x-4 md:p-28 p-16   ">
             <div className="flex flex-col gap-y-8 mt-20">
@@ -51,7 +51,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-y-2 md:w-1/2">
+        <div className="flex flex-col md:gap-y-2 md:w-1/2 px-8">
           <h5 className="text-2xl text-center"> Current Events</h5>
           <h1 className="text-5xl ">Here what we did recently</h1>
           <p className="text-base">
@@ -73,14 +73,14 @@ const Events = () => {
           backgroundImage: `url("${group.src}")`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
-          height: '70vh',
+          height: '75vh',
           position: 'relative',
         }}
       >
         ...
         <div className=" flex flex-col md:flex-row absolute inset-x-0 top-40  md:px-40 md:py-24 md:mx-8 m-4 px-20 justify-center items-center   gap-y-8 md:border-dashed border-4 border-purple  ">
           <div className=" md:w-1/2  ">
-            <h1 className="md:text-4xl sm:text-3xl mb-8 text-xl text-purple font-semibold ">
+            <h1 className="lg:text-4xl md:text-2xl sm:text-3xl mb-8 text-xl text-purple font-semibold ">
               WE ARE BRINGING SMILE TO PEOPLE’S FACES SINCE 2017
             </h1>
             <button className="btn    bg-purple text-white sm:btn-sm md:btn-md lg:btn-lg ">

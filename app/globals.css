@@ -11,6 +11,6 @@ card-bg {
 
 .imageStyle {
   object-fit: cover;
-  height: 175px; /* or any desired height */
-  width: 175px; /* or any desired width */
+  /* or any desired width */
+  min-width: 100px;
 }

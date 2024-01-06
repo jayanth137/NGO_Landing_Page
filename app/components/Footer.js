@@ -18,9 +18,9 @@ const footer = () => {
       }}
       className="flex flex-col md:flex-row gap-x-20 items-center justify-center relative"
     >
-      <div className=" md:absolute md:bottom-0 md:left-0 p-8 pt-40">
+      <div className=" md:absolute md:bottom-0 md:left-0 p-8 m  pt-40">
         <Image src={logo} alt="logo" width={400} height={400} />
-        <p className="w-96 text-white my-4 text-base">
+        <p className="w-96 text-white my-4 md:text-base text-small">
           Your support means the world to us! Thank you for standing with our
           NGO in our mission to create positive change. Every effort, big or
           small, brings us closer to making the world a better place. We
@@ -73,7 +73,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="flex border-t-2  absolute bottom-0 w-11/12 justify-between px-8 py-1  border-[#A8A8A8]">
+      <div className="flex border-t-2  absolute bottom-0 w-11/12 justify-between px-8 py-1 max-sm:hidden  border-[#A8A8A8]">
         <div>
           <p className="text-xs  text-white">
             {' '}
