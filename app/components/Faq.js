@@ -49,10 +49,10 @@ const Faq = () => {
   };
   return (
     <main>
-      <h1 className="md:text-5xl text-2xl font-bold sm:text-left sm:pl-36 text-center px-auto  ">
-        FAQ's
-      </h1>
       <div className="w-4/5  m-auto md:p-8 p-2 ">
+        <h1 className="md:text-5xl text-4xl font-bold md:text-left my-4 text-center px-auto  ">
+          FAQ's
+        </h1>
         {faqs.map((faq, i) => (
           <div
             className={`mb-4  cursor-pointer ${

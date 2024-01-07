@@ -4,8 +4,8 @@ import volunteer from '../images/Volunteer.svg';
 
 const VolunteerForm = () => {
   return (
-    <main className="flex m-8 flex-col sm:flex-row ">
-      <div className="w-1/2">
+    <main className="flex m-8 flex-col md:flex-row justify-center items-center">
+      <div className="w-1/2 ">
         <div>
           <Image src={volunteer} alt="volunteer" />
         </div>

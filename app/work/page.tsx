@@ -14,7 +14,7 @@ const page = () => {
       <Navbar />
 
       <main>
-        <div className="flex align-center justify-between mx-40 my-8">
+        <div className="flex align-center justify-between   w-4/5 m-auto my-8">
           <h1 className="text-purple text-4xl font-extrabold border-b-4 border-yellow">
             {' '}
             EXPlORE YOUR WORK

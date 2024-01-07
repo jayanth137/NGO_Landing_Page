@@ -9,11 +9,13 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Events from './components/Events';
 import VolunteerForm from './components/VolunteerForm';
+import DonateBtn from './components/DonateBtn';
 
 export default function Home() {
   return (
     <main>
       <Navbar />
+      <DonateBtn />
       <HeroPage />
       <MapCtxt />
       <Card />

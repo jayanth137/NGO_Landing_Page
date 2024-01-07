@@ -26,7 +26,7 @@ const Navbar = () => {
   let menuRef = useRef();
 
   return (
-    <nav className="flex justify-between items-center w[92%] mx-28 my-5 rounded-xl py-4 px-4 bg-purple max-md:m-0 max-md:rounded-none ">
+    <nav className="flex justify-between items-center w[92%] mx-28 my-5 rounded-xl py-4 px-4 bg-purple max-md:m-0 max-md:rounded-none  ">
       <div>
         <Image src={logo} width={200} height={50} alt="logo" />
       </div>

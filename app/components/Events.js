@@ -16,9 +16,8 @@ const Events = () => {
             backgroundRepeat: 'repeat',
             backgroundSize: 'cover',
             position: 'relative',
-            bottom: '120px',
           }}
-          className="md:w-1/2 max-h-full"
+          className="md:w-1/2 max-h-full "
         >
           <div className="flex flex-row md:gap-x-12 gap-x-4 md:p-28 p-16   ">
             <div className="flex flex-col gap-y-8 mt-20">
@@ -51,7 +50,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:gap-y-2 md:w-1/2 px-8">
+        <div className="flex flex-col md:gap-y-2 md:w-1/2 p-8 justify-center items-center ">
           <h5 className="text-2xl text-center"> Current Events</h5>
           <h1 className="text-5xl ">Here what we did recently</h1>
           <p className="text-base">
