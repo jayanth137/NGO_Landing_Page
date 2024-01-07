@@ -10,10 +10,11 @@ card-bg {
 }
 
 .imageStyle {
-  object-fit: cover;
-  /* or any desired width */
   width: 175px;
-  height: 175;
-  min-width: 125px;
-  min-height: 125px;
+  height: 175px;
+  object-fit: cover; /* This will ensure that the image covers the entire area of the div without distortion */
+}
+
+.commonClass {
+  width: 175px;
 }

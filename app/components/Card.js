@@ -21,7 +21,7 @@ const Card = () => {
           well-being, and joy through various celebrations.
         </p>
       </div>
-      <div className="grid  md:grid-flow-col  gap-y-4 gap-x-20 mx-20 md:my-20">
+      <div className="grid  md:grid-flow-col  gap-y-4 gap-x-20 mx-20 md:my-20 min-w-fit">
         <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
           <figure>
             <Image src={one} alt="Shoes" width={60} height={60} />

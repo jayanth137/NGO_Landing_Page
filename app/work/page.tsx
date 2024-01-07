@@ -7,6 +7,7 @@ import VolunteerForm from '../components/VolunteerForm';
 import WorkCard from '../components/WorkCard';
 import Footer from '../components/Footer';
 import { dummyData } from '../data';
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -19,9 +20,12 @@ const page = () => {
             {' '}
             EXPlORE YOUR WORK
           </h1>
-          <button className="btn text-white bg-purple sm:btn-sm md:btn-md lg:btn-lg lg:w-40">
+          <Link
+            href="/"
+            className="btn text-white bg-purple sm:btn-sm md:btn-md lg:btn-lg lg:w-40"
+          >
             Back
-          </button>
+          </Link>
         </div>
         <div className="bg-purple h-180 w-4/5 m-auto my-8 py-16 h-7/12 overflow-y-auto rounded-3xl">
           {dummyData.map((data, index) => (

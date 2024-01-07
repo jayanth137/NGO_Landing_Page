@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import YellowBg from '../images/YellowHeroPage.svg';
-import kids from '../images/kids.svg';
-import PatternStrip from '../images/pattern-strip.svg';
+import Hero from '../images/Hero.svg';
+import Link from 'next/link';
 
 const HeroPage = () => {
   return (
@@ -16,22 +15,20 @@ const HeroPage = () => {
           <h4 className="text-xl md:text-3xl lg:text-4xl my-4">
             We never miss a smile
           </h4>
-          <div className="flex  justify-start ">
-            <button className="btn my-2  md:mx-0 md:my-12 bg-yellow sm:btn-sm md:btn-md lg:btn-lg lg:w-40">
-              Donate
-            </button>{' '}
-          </div>
+          <Link
+            href="/donation"
+            className="btn bg-yellow text-white px-20 py-4"
+          >
+            Donate
+          </Link>
         </div>
         <div className="relative bottom-0 left-100 ">
           <Image
-            src={YellowBg}
+            src={Hero}
             alt="yellow background"
             height={2200}
             width={1500}
           />
-          <div className="absolute bottom-0 left-100">
-            <Image src={kids} alt="kids" width={900} />
-          </div>
         </div>
       </div>
     </main>

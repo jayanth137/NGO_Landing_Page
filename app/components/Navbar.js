@@ -48,8 +48,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex gap-x-4">
-        <Image src={facebook} height={20} width={40} />
-        <button className="btn btn-white rounded-xl">DONATE </button>
+        <Link href="https://m.facebook.com/p/Smile-Foundation-Society-100068504346608/">
+          <Image src={facebook} height={20} width={40} />
+        </Link>
+        <Link href="/donation" className="btn btn-white rounded-xl">
+          DONATE{' '}
+        </Link>
       </div>
     </nav>
   );

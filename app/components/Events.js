@@ -3,7 +3,8 @@ import pt from '../images/pattern.svg';
 import Image from 'next/image';
 import image1 from '../work-images/image1.svg';
 import image2 from '../work-images/image2.svg';
-import group from '../images/group.svg';
+import image3 from '../work-images/image-tdy.jpeg';
+import Link from 'next/link';
 
 const Events = () => {
   return (
@@ -17,34 +18,50 @@ const Events = () => {
             backgroundSize: 'cover',
             position: 'relative',
           }}
-          className="md:w-1/2 max-h-full "
+          className="w-auto max-h-full "
         >
-          <div className="flex flex-row md:gap-x-12 gap-x-4 md:p-28 p-16   ">
+          <div className="flex flex-row gap-x-24 mx-24 grow py-12   ">
             <div className="flex flex-col gap-y-8 mt-20">
               <div>
-                <Image src={image1} alt="donation" className="imageStyle" />
-                <h1 className="bg-purple font-medium p-1 text-white">
+                <Image
+                  src={image1}
+                  alt="donation"
+                  className="commonClass imageStyle"
+                />
+                <h1 className="commonClass bg-purple font-medium p-1 text-white">
                   Blood Donation Camp
                 </h1>
               </div>
               <div>
-                <Image src={image2} alt="donation" className="imageStyle" />
-                <h1 className="bg-purple font-medium p-1 text-white">
-                  Lets Invest Plants
+                <Image
+                  src={image2}
+                  alt="donation"
+                  className="commonClass imageStyle"
+                />
+                <h1 className="bg-purple commonClass font-medium p-1 text-white">
+                  'Let's Invest in Nature'
                 </h1>
               </div>
             </div>
             <div className="flex flex-col gap-y-8">
               <div>
-                <Image src={image1} alt="donation" className="imageStyle" />
-                <h1 className="bg-purple font-medium p-1 text-white">
-                  Blood Donation Camp
+                <Image
+                  src={image3}
+                  alt="donation"
+                  className=" commonClass imageStyle"
+                />
+                <h1 className="commonClass bg-purple font-medium p-1 text-white">
+                  Road Safety Campaign
                 </h1>
               </div>
               <div>
-                <Image src={image1} alt="donation" className="imageStyle" />
-                <h1 className="bg-purple font-medium p-1 text-white">
-                  Blood Donation Camp
+                <Image
+                  src={image1}
+                  alt="donation"
+                  className=" commonClass imageStyle"
+                />
+                <h1 className="commonClass bg-purple font-medium p-1 text-white">
+                  Empowering Consumers
                 </h1>
               </div>
             </div>
@@ -61,30 +78,27 @@ const Events = () => {
             elementum tristique. Fusce efficitur, leo ac posuere vehicula,
             turpis elit placerat tortor, vel lobortis{' '}
           </p>
-          <button className="btn my-2 w-40  md:mx-0 md:my-12 bg-yellow sm:btn-sm md:btn-md lg:btn-lg lg:w-40">
-            Donate
-          </button>{' '}
+          <Link
+            href="/work"
+            className="btn my-2 w-40  md:mx-0 md:my-12 bg-yellow sm:btn-sm md:btn-md lg:btn-lg lg:w-40"
+          >
+            More Events{' '}
+          </Link>{' '}
         </div>
       </main>
 
-      <main
-        style={{
-          backgroundImage: `url("${group.src}")`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          height: '75vh',
-          position: 'relative',
-        }}
-      >
-        ...
-        <div className=" flex flex-col md:flex-row absolute inset-x-0 top-40  md:px-40 md:py-24 md:mx-8 m-4 px-20 justify-center items-center   gap-y-8 md:border-dashed border-4 border-purple  ">
+      <main className="w-full bg-yellow max-h-content	p-4 ">
+        <div className=" flex flex-col md:flex-row  inset-x-0 top-40  md:px-40 md:py-24 md:mx-8 m-4 px-20 justify-between items-center gap-x-20 gap-y-8 border-dashed border-4 border-purple  ">
           <div className=" md:w-1/2  ">
             <h1 className="lg:text-4xl md:text-2xl sm:text-3xl mb-8 text-xl text-purple font-semibold ">
               WE ARE BRINGING SMILE TO PEOPLE’S FACES SINCE 2017
             </h1>
-            <button className="btn    bg-purple text-white sm:btn-sm md:btn-md lg:btn-lg ">
+            <Link
+              href=""
+              className="btn    bg-purple text-white sm:btn-sm md:btn-md lg:btn-lg "
+            >
               BE PART OF OUR TEAM
-            </button>{' '}
+            </Link>{' '}
           </div>
           <div className="flex  gap-x-20 md:w-1/2">
             <div>
