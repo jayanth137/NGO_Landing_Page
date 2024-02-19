@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import volunteer from '../images/Volunteer.svg';
+import Link from 'next/link';
 
 const VolunteerForm = () => {
   return (
@@ -15,9 +16,13 @@ const VolunteerForm = () => {
         <p className="font-medium  ">
           Never miss a chance to make a difference
         </p>
-        <button className="bg-purple text-white w-40 py-2 rounded-lg my-4">
+        <Link
+          href="https://forms.gle/yhqhbX56F9nhNbuR8"
+          target="_blank"
+          className="btn bg-purple text-white w-40 py-2 rounded-lg my-4"
+        >
           Join Us
-        </button>
+        </Link>
       </div>
     </main>
   );

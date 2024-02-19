@@ -27,8 +27,8 @@ const Card = () => {
             <Image src={one} alt="Shoes" width={60} height={60} />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Supporting the Needy</h2>
+            <p>A Call to Action</p>
           </div>
         </div>
         <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
@@ -36,8 +36,8 @@ const Card = () => {
             <Image src={two} alt="Shoes" width={60} height={60} />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Community Support</h2>
+            <p>Avernus, Medical, Blood Camps</p>
           </div>
         </div>
         <div className="card card-compact w-full  bg-base-100 p-4 shadow-2xl ring-purple md:hover:ring-2">
@@ -45,8 +45,8 @@ const Card = () => {
             <Image src={three} alt="Shoes" width={60} height={60} />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Nurturing Our Living Culture</h2>
+            <p></p>
           </div>
         </div>
       </div>

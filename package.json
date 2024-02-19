@@ -19,9 +19,11 @@
     "embla-carousel-react": "^8.0.0-rc18",
     "lucide-react": "^0.307.0",
     "next": "14.0.3",
+    "razorpay": "^2.9.2",
     "react": "^18",
     "react-dom": "^18",
     "sharp": "^0.33.1",
+    "shortid": "^2.2.16",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"
   },

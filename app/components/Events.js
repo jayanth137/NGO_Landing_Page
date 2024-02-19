@@ -94,7 +94,8 @@ const Events = () => {
               WE ARE BRINGING SMILE TO PEOPLE’S FACES SINCE 2017
             </h1>
             <Link
-              href=""
+              href="https://forms.gle/yhqhbX56F9nhNbuR8"
+              target="_blank"
               className="btn    bg-purple text-white sm:btn-sm md:btn-md lg:btn-lg "
             >
               BE PART OF OUR TEAM
