@@ -2,11 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import Hero from '../images/Hero.svg';
 import Link from 'next/link';
+import border from '../images/cardDesign.svg';
 
 const HeroPage = () => {
   return (
     <main>
-      <div className="flex flex-col md:flex-row  md:pl-28  p-8  md:pt-28">
+      <div className="flex flex-col md:flex-row  md:pl-28  p-8  md:pt-28 border--double border-b-4 border-dotted border-yellow">
         <div>
           {' '}
           <h1 className=" text-3xl  md:text-5xl lg:text-7xl text-purple font-bold  max-w-screen-5xl    ">

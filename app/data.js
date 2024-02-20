@@ -496,11 +496,11 @@ export const dummyData = [
   },
   {
     images: [image4, image5, image6],
-    title: 'Praesent Commodo',
-    date: '2023-12-19',
+    title: 'Spreading Warmth and Compassion',
+    date: '05 january 2024',
 
     passage:
-      ' Smile Foundation Society and District Bar Panipat jointly organized blood donation camp at District Court, Panipat. This impactful initiative aims to promote voluntary blood donation and strengthen community health. The event received excellent response, resulting ina total of 105 units of lifesaving blood collected. Red Cross Societysupported this remarkable achiev...Read me ,',
+      ' Smile Foundation Society gave them blankets, medicines, tea and food items to help the helpless people living on the sidewalk a little cold relief. On this occasion, Chairman of Smile Foundation, Sunita Sivach ji said that there should be concern about the suffering. We must care for those who are sick, disabled or suffering. If we see someone who is carrying a heavy burden or struggling with something difficult we must come forward to lighten their burden. Loving and caring for those who are less fortunate is a fundamental aspect of compassion and empathy. Loving the poor lies in the principles of social justice, human dignity and belief that all individuals deserve to be treated with kindness and respect.You can donate money, food, clothes, toys, old furniture and books to the nearest organizations working to help people in need. These donations can brighten the days of the poor. Help them achieve their desires or desires in a respectable way. On this occasion, Saroj Jaglan, Vipul Dhiman, Rahul Kumar, Mukesh Sandhu, Pankaj Sharma, Puneet Batra, Sanjeev Malik, Rohit Malik, Ravindra, Rajesh Kumar, etc were supported.,',
   },
   {
     images: [image7, image8, image9],

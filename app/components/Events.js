@@ -18,10 +18,10 @@ const Events = () => {
             backgroundSize: 'cover',
             position: 'relative',
           }}
-          className="w-auto max-h-full "
+          className=" max-h-full md:w-1/2 "
         >
-          <div className="flex flex-row gap-x-24 mx-24 grow py-12   ">
-            <div className="flex flex-col gap-y-8 mt-20">
+          <div className="flex flex-row  p-20 justify-center align-center gap-x-8 grow py-12   ">
+            <div className="flex flex-col gap-y-8 mt-20 ">
               <div>
                 <Image
                   src={image1}
@@ -67,7 +67,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:gap-y-2 md:w-1/2 p-8 justify-center items-center ">
+        <div className="flex flex-col md:gap-y-2  p-8 justify-center items-center md:w-1/2 ">
           <h5 className="text-2xl text-center"> Current Events</h5>
           <h1 className="text-5xl ">Here what we did recently</h1>
           <p className="text-base">
