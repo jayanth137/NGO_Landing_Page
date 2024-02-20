@@ -5,7 +5,8 @@ const DonateBtn = () => {
   return (
     <div class="fixed top-1/2 -left-10 transform -translate-y-1/2 rotate-90 z-10">
       <Link
-        href="donation"
+        href="https://rzp.io/l/u2trNK956"
+        target="_blank"
         class="bg-purple  text-white font-bold py-2 px-4 rounded-xl"
       >
         Donate <span className="text-white">&#9829;</span>
